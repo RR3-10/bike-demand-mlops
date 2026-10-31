@@ -1,6 +1,6 @@
 # Bike Sharing Demand API
 
-[![CI](https://github.com/YOUR_GITHUB_USERNAME/bike-demand-mlops/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/YOUR_GITHUB_USERNAME/bike-demand-mlops/actions/workflows/ci.yml)
+[![CI](https://github.com/RR3-10/bike-demand-mlops/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/RR3-10/bike-demand-mlops/actions/workflows/ci.yml)
 
 AI381 Lab 2 · Rashed Moukattash
 
@@ -28,7 +28,7 @@ curl -X POST localhost:8000/predict -H "Content-Type: application/json" \
 Or pull the image CI already built (replace `<sha>` with a commit SHA from `main`):
 
 ```bash
-docker run --rm -p 8000:8000 ghcr.io/your_github_username/bike-demand-mlops:<sha>
+docker run --rm -p 8000:8000 ghcr.io/rr3-10/bike-demand-mlops:<sha>
 ```
 
 ## API
